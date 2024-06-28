@@ -69,7 +69,7 @@ class Aplication {
   dialog: Dialog;
 
   constructor() {
-    console.log("--|Patrón Factory Method|--");
+    console.log("--|Patrón Factory Method - Ejemplo Base|--");
     const platform = os.platform();
 
     // La aplicación elige el tipo de creador dependiendo de la plataforma.
