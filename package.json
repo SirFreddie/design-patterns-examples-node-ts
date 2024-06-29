@@ -17,7 +17,9 @@
     "composite": "tsnd --respawn --clear patrones-estructurales/composite/src/app.ts",
     "decorator": "tsnd --respawn --clear patrones-estructurales/decorator/src/app.ts",
     "facade": "tsnd --respawn --clear patrones-estructurales/facade/src/app.ts",
-    "proxy": "tsnd --respawn --clear patrones-estructurales/proxy/src/app.ts"
+    "proxy": "tsnd --respawn --clear patrones-estructurales/proxy/src/app.ts",
+    "chain": "tsnd --respawn --clear patrones-comportamiento/chain-of-responsibility/src/app.ts",
+    "iterator": "tsnd --respawn --clear patrones-comportamiento/iterator/src/app.ts"
   },
   "keywords": [],
   "author": "",
