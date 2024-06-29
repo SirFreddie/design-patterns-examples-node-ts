@@ -1,0 +1,31 @@
+{
+  "name": "design-patterns-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --clear src/app.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js",
+    "abstract-factory": "tsnd --respawn --clear patrones-creacionales/abstract-factory/src/app.ts",
+    "builder": "tsnd --respawn --clear patrones-creacionales/builder/src/app.ts",
+    "factory-method": "tsnd --respawn --clear patrones-creacionales/factory-method/src/app.ts",
+    "factory-method-2": "tsnd --respawn --clear patrones-creacionales/factory-method/src/app2.ts",
+    "prototype": "tsnd --respawn --clear patrones-creacionales/prototype/src/app.ts",
+    "singleton": "tsnd --respawn --clear patrones-creacionales/singleton/src/app.ts",
+    "adapter": "tsnd --respawn --clear patrones-estructurales/adapter/src/app.ts",
+    "bridge": "tsnd --respawn --clear patrones-estructurales/bridge/src/app.ts",
+    "composite": "tsnd --respawn --clear patrones-estructurales/composite/src/app.ts",
+    "decorator": "tsnd --respawn --clear patrones-estructurales/decorator/src/app.ts",
+    "facade": "tsnd --respawn --clear patrones-estructurales/facade/src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "rimraf": "^5.0.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.2"
+  }
+}
