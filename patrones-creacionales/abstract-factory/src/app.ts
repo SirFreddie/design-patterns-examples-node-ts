@@ -95,6 +95,7 @@ Esto permite pasar cualquier subclase de fabrica o producto a la aplicacion clie
 class Aplication {
   private factory: GUIFactory;
   private button: Button;
+  private checkbox: Checkbox;
 
   constructor(factory: GUIFactory) {
     console.log("--|Patrón Abstract Factory - Ejemplo Base|--");
@@ -102,6 +103,8 @@ class Aplication {
     this.factory = factory;
     this.button = this.factory.createButton();
     this.button.render();
+    this.checkbox = this.factory.createCheckbox();
+    this.checkbox.render();
   }
 }
 
