@@ -24,7 +24,8 @@
     "memento": "tsnd --respawn --clear patrones-comportamiento/memento/src/app.ts",
     "observer": "tsnd --respawn --clear patrones-comportamiento/observer/src/app.ts",
     "state": "tsnd --respawn --clear patrones-comportamiento/state/src/app.ts",
-    "strategy": "tsnd --respawn --clear patrones-comportamiento/strategy/src/app.ts"
+    "strategy": "tsnd --respawn --clear patrones-comportamiento/strategy/src/app.ts",
+    "visitor": "tsnd --respawn --clear patrones-comportamiento/visitor/src/app.ts"
   },
   "keywords": [],
   "author": "",
