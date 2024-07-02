@@ -22,7 +22,8 @@
     "iterator": "tsnd --respawn --clear patrones-comportamiento/iterator/src/app.ts",
     "mediator": "tsnd --respawn --clear patrones-comportamiento/mediator/src/app.ts",
     "memento": "tsnd --respawn --clear patrones-comportamiento/memento/src/app.ts",
-    "observer": "tsnd --respawn --clear patrones-comportamiento/observer/src/app.ts"
+    "observer": "tsnd --respawn --clear patrones-comportamiento/observer/src/app.ts",
+    "state": "tsnd --respawn --clear patrones-comportamiento/state/src/app.ts"
   },
   "keywords": [],
   "author": "",
